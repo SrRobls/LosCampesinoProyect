@@ -47,10 +47,10 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>mysql</groupId>
@@ -58,6 +58,11 @@
 			<scope>runtime</scope>
 		</dependency>
 
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -75,14 +80,14 @@
 				</configuration>
 			</plugin>
 
-			 <plugin>
+			 <!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<source>11</source>
 					<target>11</target>
 					</configuration>
-  			</plugin>
+  			</plugin> -->
 		</plugins>
 	</build>
 
